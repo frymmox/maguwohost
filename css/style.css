@@ -1,0 +1,635 @@
+body {
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Raleway","Arial", sans-serif;
+    color: #202242;
+
+    background-color: #ffffff;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #2d2d2d; 
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #2d2d2d; 
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+     color: #2d2d2d; 
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-----------Header---------------*/
+
+.page-header {
+    margin: 0;
+
+    background-color: #ffffff;   
+}
+
+.logo {
+    float: left;
+    width: 226px;
+    height: 33px;
+    margin-top: 59px;
+    margin-bottom: 56px;
+}
+
+.main-nav ul {
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 56px;
+    margin-left: 55px;
+    padding: 0;
+
+    font-size: 0;
+
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+
+    font-size: 16px;
+    line-height: 24px;
+    text-align: top;
+    text-transform: uppercase;
+}
+
+.main-nav a,
+.main-nav span {
+    display: block;
+    padding: 10px 23px 5px;
+
+    color: #202242;
+    text-decoration: none;
+}
+
+.main-nav .active span {
+    font-weight: 700;
+    color: #ffe13e;
+}
+
+.callback {
+    float: right;
+    width: 283px;
+    height: 100%;
+    padding: 30px 0 31px 47px;
+
+    border-left: 1px solid #ebebeb;
+}
+
+.callback p {
+    margin: 0;
+    padding: 0;
+
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.btn {
+    display: block;
+
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-chat {
+    float: left;
+    padding: 13px 30px;
+    margin-top: 22px;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #202242;
+
+    background-color: #ffe13e;
+}
+
+.callback .phone {
+    float: right;
+    margin-top: 24px;
+    padding: 10px 0 10px 20px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+
+    border-left: 2px solid #babbc4;
+}
+
+/*-------------Promo----------------*/
+
+.promo {
+    min-height: 584px;
+    margin: 0;
+    padding: 0;
+    padding-top: 210px;
+
+    background-image: url("../img/figure.svg"), url(../img/bg-promo.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 392px, center center;
+    background-size: auto, cover;   
+}
+
+.promo-title {
+    font-size: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.promo-description {
+    font-size: 30px;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.search {
+    width: 534px;
+    margin: 0 auto;
+    margin-top: 215px;
+    padding: 18px;
+
+    font-size: 0;
+
+    background-color: rgba(214, 221, 221, 0.8);
+}
+
+.search-field {
+    width: 250px;
+    padding: 15px 0 15px 22px;
+    
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: top;
+
+    border: none;
+}
+
+.search-select {
+    width: 106px;
+    padding: 15px 0;
+    padding-left: 12px;
+    
+    
+
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #2d2d2d;
+    vertical-align: top;
+
+    background: #ffe13e url("../img/ico/ico-arrow-down.png") no-repeat 80px center;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.search-submit {
+    padding: 15px 15px 15px 17px;
+
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    vertical-align: top;
+    color: #ffffff;
+    
+    background-color: #ffe13e;
+    border: none;
+    border-left: 1px solid #ffffff;
+    
+}
+
+/*-------------Best------------------*/
+
+.best {
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.best-container {
+    box-sizing: border-box;
+    width: 50%;
+    min-height: 652px;
+}
+
+.best-container-blue {
+    position: relative;
+    
+    float: left;
+    padding: 340px 85px 70px 170px;
+
+    background-color: #202242;
+}
+
+.best-container-blue::before {
+    content: "";
+
+    position: absolute;
+    top: 116px;
+    right: 217px;
+
+    display: block;
+    width: 168px;
+    height: 169px;
+
+    background: url("../img/ico/ico-webhost.png") no-repeat center center;
+}
+
+.best-content {
+    text-align: center;
+}
+
+.best-content h2 {
+    margin-top: 0;
+
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.best-btn {
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 20px 50px;
+
+    color: #ffffff;
+
+    border: 2px solid #ffffff;
+}
+
+.best-container-yellow {
+    position: relative;
+
+    float: right;
+    padding: 340px 170px 70px 85px;
+
+    background-color: #ffe13e;
+}
+
+.best-container-yellow::before {
+    content: ".com";
+
+    position: absolute;
+    left: 151px;
+    top: 182px;
+
+    font-size: 133.76px;
+    line-height: 44.59px;
+    font-weight: 700;
+    color: #202242;
+}
+
+/*------------Features------------*/
+.features {
+    min-height: 605px;
+    padding-top: 60px;
+
+    background: url(../img/bg-features.png) no-repeat 236px -9px;
+}
+
+.features-title {
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.features-text {
+    font-size: 24px;
+    text-align: center;
+}
+
+.features-container {
+    margin-top: 88px;
+}
+
+.feature {
+    position: relative;
+
+    float: left;
+    width: 270px;
+    margin-right: 30px;
+    padding-top: 165px;
+    
+    text-align: center;
+}
+
+.feature::before {
+    content: "";
+
+    position: absolute;
+    top: 162px;
+    left: 100px;
+
+    display: block;
+    width: 70px;
+    height: 3px;
+
+    background-color: #8d8d99;
+}
+
+.feature:last-child {
+    margin-right: 0;
+}
+
+.feature h3 {
+    margin-bottom: 26px;
+    font-size: 30px;
+    color: #f4d320;
+}
+
+.feature-support {
+    background: url("../img/ico/ico-features-1.png") no-repeat center top; 
+}
+.feature-technology {
+    background: url("../img/ico/ico-features-2.png") no-repeat center top; 
+}
+.feature-database {
+    background: url("../img/ico/ico-features-3.png") no-repeat center top; 
+}
+.feature-monitoring {
+    background: url("../img/ico/ico-features-4.png") no-repeat center top; 
+}
+
+/*------------Clients-----------*/
+
+.clients-container {
+    padding-top: 80px;
+}
+
+.clients {
+    margin-bottom: 80px;
+}
+
+.clients-content {
+    float: left;
+    width: 370px;
+    margin-right: 30px;
+}
+
+.clients-content h2 {
+    margin: 0;
+    margin-bottom: 20px; 
+
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.clients-content p {
+    margin: 0;
+    padding-right: 40px;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #adadad;
+}
+
+.clients-list {
+    float: right;
+    width: 770px;
+    padding-top: 20px;
+
+    font-size: 0;
+}
+
+.clients-list a {
+    display: inline-block;
+    height: 115px;
+    margin-right: 27px;
+    vertical-align: top;
+
+    text-decoration: none;  
+}
+
+.clients-list a:last-child {
+    margin-right: 0;
+}
+
+/*-----------Feedback------------*/
+
+.feedback-container {
+    padding-bottom: 110px;
+}
+
+.feedback {
+    position: relative;
+    float: left;
+    width: 370px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    padding: 25px 29px 15px 22px;
+    
+    background-color: #faf9f9;
+}
+
+.feedback:last-child {
+    margin-right: 0;
+}
+
+.feedback blockquote {
+    margin: 0;
+    padding-bottom: 20px;
+
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.feedback cite {
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #696969;
+    font-style: normal;
+}
+
+.feedback img {
+    position: absolute;
+    bottom: -51px;
+    right: 21px;
+
+    border-radius: 50%;
+    border: 5px solid #e7e7ea;
+
+}
+
+/*-----------Plans---------------*/
+
+.plans {
+    min-height: 90px;
+    padding: 90px 70px;
+    
+    background-color: #202242;
+}
+
+.plans-content {
+    float: left;
+    width: 700px;
+}
+
+.plans-content h2 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.plans-content p {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #67687b;
+}
+
+.plans-link {
+    float: right;
+    margin-right: 90px;
+    padding: 28px 50px;
+    
+    font-weight: 700;
+    color: #202242;
+
+    background-color: #ffe13e;
+    border: 3px solid #ffffff;
+    
+}
+
+/*------------Footer-----------*/
+
+.page-footer {
+    min-height: 565px;
+    padding-top: 95px;
+
+    background-color: #363855;
+}
+
+.footer_top {}
+
+.map {
+    position: relative;
+
+    float: left;
+    width: 820px;
+    min-height: 409px;
+
+    background: url(../img/bg-map.png) no-repeat center center;
+
+}
+
+.map-marker {
+    position: absolute;
+    right: -28px;
+    bottom: 124px;
+
+    padding-left: 40px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+
+    background: url("../img/ico/ico-map-marker.png") no-repeat left center;
+}
+
+.map-marker-indonesia {}
+
+.page-footer-menu {
+    float: right;
+}
+
+.page-footer-title {
+    padding: 0 3px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.menu ul {
+    position: relative;
+    left: 30px;
+    width: 67px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    border-bottom: 1px solid #565870;
+}
+
+.menu li:last-child {
+    border: none;
+}
+
+.menu a {
+    display: block;
+    margin-right: 0;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: right;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social {
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+    background: url(../img/ico/ico-social.png) no-repeat 50% 50%;
+}
+
+.social-btn {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 7px;
+
+    font-size: 0;
+}
+
+.page-footer-to-top {
+    display: block;
+    float: right;
+    
+    font-size: 12px;
+    line-height: 36px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.page-footer-copyright {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 50px;
+    clear: both;
+
+    font-size: 14px;
+    color: #ffffff;
+
+    background: url("../img/ico/ico-figure.svg") no-repeat center top;
+}
