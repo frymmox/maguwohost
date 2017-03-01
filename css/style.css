@@ -237,20 +237,37 @@ textarea::-webkit-input-placeholder {
 }
 
 .best-container-blue {
-    position: relative;
-    
     float: left;
-    padding: 340px 85px 70px 170px;
+    padding: 116px 100px 70px 0px;
 
     background-color: #202242;
 }
 
-.best-container-blue::before {
+.best-container-yellow {
+    float: right;
+    padding: 180px 0px 70px 100px;
+
+    background-color: #ffe13e;
+}
+
+.best-content {
+    position: relative;
+    width: 417px;
+
+    text-align: center;
+}
+
+.best-content-blue {
+    float: right;
+    padding-top: 225px;
+}
+
+.best-content-blue::before {
     content: "";
 
     position: absolute;
-    top: 116px;
-    right: 217px;
+    top: 0px;
+    right: 130px;
 
     display: block;
     width: 168px;
@@ -259,8 +276,21 @@ textarea::-webkit-input-placeholder {
     background: url("../img/ico/ico-webhost.png") no-repeat center center;
 }
 
-.best-content {
-    text-align: center;
+.best-content-yellow {
+    padding-top: 158px;
+}
+
+.best-content-yellow::before {
+    content: ".com";
+
+    position: absolute;
+    top: 0px;
+    left: 52px;
+
+    font-size: 133.76px;
+    line-height: 44.59px;
+    font-weight: 700;
+    color: #202242;
 }
 
 .best-content h2 {
@@ -279,28 +309,6 @@ textarea::-webkit-input-placeholder {
     color: #ffffff;
 
     border: 2px solid #ffffff;
-}
-
-.best-container-yellow {
-    position: relative;
-
-    float: right;
-    padding: 340px 170px 70px 85px;
-
-    background-color: #ffe13e;
-}
-
-.best-container-yellow::before {
-    content: ".com";
-
-    position: absolute;
-    left: 151px;
-    top: 182px;
-
-    font-size: 133.76px;
-    line-height: 44.59px;
-    font-weight: 700;
-    color: #202242;
 }
 
 /*------------Features------------*/
